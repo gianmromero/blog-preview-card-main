@@ -1,0 +1,87 @@
+body {
+    background-color: hsl(47, 88%, 63%);
+    font-size: 16px;
+    font-family: 'Figtree', sans-serif;
+    margin: 180px auto;
+    padding: 20px;
+        
+}
+
+.container {
+    width: 327px;
+    height: 501px;
+    margin: 0 auto;
+    padding: 16px 16px 45px 16px;
+    background-color: hsl(0, 0%, 100%);
+    /*Flexbox*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+    box-sizing: border-box;
+
+    border: 1px solid black;
+    border-radius: 20px;
+    box-shadow: 10px 10px black;
+}
+
+.blog-card-image {
+    
+    width: 100%;
+    height: auto;
+    border-radius: 15px;
+    margin: 16px 0;
+    
+}
+
+.blog-card-button,
+.blog-card-date,
+.blog-card-title,
+.blog-card-description {
+    align-self: flex-start;
+    margin-bottom: 10px; /* Use consistent margin for spacing */
+}
+
+.blog-card-button {
+    background-color: hsl(47, 88%, 63%); 
+    border: none;
+    color: black;
+    padding: 6px 10px;
+    text-align: center;
+    text-decoration: none;
+    font-weight: 900;
+    border-radius: 5px;
+    
+}
+.blog-card-date {
+    font-size: 12px;
+}
+.blog-card-title {
+    font-size: 20px;
+    font-weight: 900;
+    transition: color 0.3s ease;
+}
+.blog-card-title:hover {
+    color: hsl(47, 88%, 63%);
+}
+
+.blog-card-footer {
+    display: flex;
+    align-items: center;
+    align-self: flex-start; /* Align the footer to the start within the container */ 
+}
+.blog-card-description {
+    font-size: 14px;
+    color: hsl(0, 0%, 42%);
+    font-weight: 500;
+}
+.blog-card-image-footer {
+    width: 32px;
+    height: 32px;
+}
+.blog-card-autor {
+    font-size: 15px;
+    font-weight: 900;
+    padding: 10px;
+}
